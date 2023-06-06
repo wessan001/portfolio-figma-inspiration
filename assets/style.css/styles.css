@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Goldman&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    background-color: #171717;
+    margin: 0;
+    padding: 0;
+}
+
+html { /* permite deslizar quando clico nos links do menu */
+    scroll-behavior: smooth;
+}
+
+/* MENU*/
+
+.header-content {
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header-content header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header-content header .logo a {
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    font-size: 36px;
+    color: #20B2AA;
+    text-decoration: none;
+}
+
+.header-content header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-content header nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.header-content header nav ul li a:hover {
+    color: #20B2AA;
+}
+
+/* INICIO */
+
+.inicio .present-content {
+    position: absolute;
+    left: 128px;
+    top: 275px;
+}
+
+.inicio .present-content h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+
+.inicio .present-content h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(224, 217, 217);
+    margin: 10px;
+}
+
+.inicio button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 200px;
+    margin: 10px;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.inicio button a {
+    text-decoration: none;
+}
+
+.inicio .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+    width: 42px;
+    height: 42px;
+    margin: 35px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.inicio div img {
+    margin-top: 40px;
+    border: 10px solid #20B2AA;
+    border-radius: 100%;
+    width: 25%;
+    position: absolute;
+    left: 800px;
+    top: 187px;
+}
+
+/* ABOUT ME */
+
+.about-me {
+    position: absolute;
+    padding: 50px 20px;
+    width: 900px;
+    left: 250px;
+    top: 684px;
+}
+
+.about-me h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #20B2AA;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about-me .about-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-me .about-content p {
+    text-align: center;
+    display: flex;
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.about-me .lista {
+    display: flex;
+}
+
+.about-me .lista .col {
+    width: 50%;
+}
+
+
+.about-me .lista .col ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0 40px;
+    margin: 50px;
+    text-align: center;
+}
+
+.about-me .lista .col ul li {
+    margin: 12px 0;
+}
+
+.about-me .lista .col ul li strong {
+    display: inline-block;
+    color: #1cb698;
+    width: 130px;
+}
